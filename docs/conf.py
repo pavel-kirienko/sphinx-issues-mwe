@@ -16,14 +16,10 @@ templates_path = []
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
+master_doc = 'index'
+
 autoclass_content = 'bysource'
 autodoc_member_order = 'bysource'
-autodoc_default_flags = [  # using the deprecated option to appease the readthedocs' builder
-    'members',
-    'undoc-members',
-    'imported-members',
-    'show-inheritance',
-]
 
 html_theme = 'alabaster'
 
