@@ -1,3 +1,7 @@
+#: This entity is ignored by autodoc.
+DATA_ENTITY = {'abc', 'def'}
+
+
 class Entity:
     pass
 
